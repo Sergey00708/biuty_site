@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.fixet-float::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+/*header-start*/
+.header-link {
+    background: #E5E5E5;
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+
+.header-link-container {
+    max-width: fit-content;
+    margin: 0 auto;
+    font-size: 0px;
+}
+
+.header-link-container li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.header-link a {
+    color: #333333;
+}
+
+.header-link-container li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.header-midl {
+    padding: 20px 0px;
+}
+
+.header-midl-logo-text {
+    color: #F13C6E;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 80px;
+    vertical-align: bottom;
+    margin-left: 20px;
+}
+
+.header-midl .container div {
+   display: inline-block;
+   font-size: 0px;
+}
+.header-midl-wrapper-phone{
+    margin: 40px auto;
+}
+
+.header-midl-wrapper-phone a {
+    font-size: 1rem;
+    color: #000000;
+    margin-right: 40px;
+}
+.header-midl-wrapper-phone button{
+    width: 170px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+}
+
+.header-navigate{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-navigate-link{
+    max-width: fit-content;
+    margin: 0 auto;
+    font-size: 0px;
+}
+
+.header-navigate-link li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.header-navigate-link a{
+    color: #000000;
+}
+
+.header-navigate-link li:not(:last-child){
+    margin-right: 40px;
+}
+
+
+/*header-end*/
+
+
+/*main-start*/
+main{
+    background: #E5E5E5;
+}
+.banner {
+    padding-top: 192px;
+    padding-bottom: 193px;
+    background-image: url("../img/bg-banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 3.125rem;
+}
+
+.banner-text {
+    max-width: 308px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 3.125rem;
+}
+
+.banner-button {
+    width: 100%;
+    max-width: 170px;
+    height: 40px;
+    background: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.wrapper-card{
+    padding-top: 5rem;
+    padding-bottom: 6.25rem;
+
+}
+.wrapper-card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.wrapper-card-under{
+    font-size: 0px;
+}
+.wrapper-card-item{
+    padding: 25px 30px;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 30px;
+    width: 255px;
+    background: #FFFFFF;
+    margin-top: 38px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.wrapper-card-item:last-child{
+    margin-right: 0px;
+}
+.wrapper-card-item img{
+    display: block;
+    margin: 0px auto 20px auto;
+}
+
+.wrapper-card-item-text{
+    max-width: 195px;
+    margin: 0px auto 20px auto;
+    color: #333333;
+}
+
+.wrapper-card-item-price{
+    margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.wrapper-card-item-button{
+    width: 100%;
+    max-width: 135px;
+    height: 35px;
+    background: #F13C6E;
+    border-radius: 30px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.wrapper-card-item-button:hover{
+    border: 1px solid  #F13C6E;
+    color:  #F13C6E;
+    background: #FFFFFF;
+
+}
+/*main-end*/
+.test{
+    font-size: 0px;
+}
+
+.test div{
+    background: red;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    font-size: 24px;
+}
