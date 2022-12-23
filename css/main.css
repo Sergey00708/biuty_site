@@ -46,6 +46,7 @@ a {
 
 .header-midl {
     padding: 20px 0px;
+    border-bottom: 1px solid #EFEFEF;;
 }
 
 .header-midl-logo-text {
@@ -155,7 +156,6 @@ main{
 .wrapper-card{
     padding-top: 5rem;
     padding-bottom: 6.25rem;
-
 }
 .wrapper-card-title{
     font-size: 1.5rem;
@@ -214,14 +214,237 @@ main{
 
 }
 /*main-end*/
-.test{
-    font-size: 0px;
+
+/* blocks */
+
+.wrapper_block_under{
+    font-size: 0;
 }
 
-.test div{
-    background: red;
-    width: 200px;
-    height: 100px;
+
+.wrapper_block{
+    background-color: #F13C6E;
     display: inline-block;
-    font-size: 24px;
+    max-width: 540px;
+    padding: 35px 45px 35px 40px;
 }
+
+.item1{
+    margin-right: 30px;
+}
+
+.wrapper_block h3{
+    min-width: 250px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.wrapper_block p{
+    max-width: 129px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.subscribe_text{
+   float: left;
+   margin-right: 65px;
+}
+
+.subscribe_text input{
+    max-width: 105px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+    padding: 9px 95px 9px 25px;
+    border: none;
+}
+
+.subscribe_img{
+    float: right;
+    padding: 16px 0;
+}
+
+.uor_shop_text{
+   float: left;
+   margin-right: 16px;
+}
+
+.uor_shop_text button{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 9px 53px;
+    font-weight: 400;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+}
+
+.uor_shop_img{
+    float: right;
+    padding: 21px 0;
+    height: 122px;
+}
+
+
+/* end blocks */
+
+/* impuls start */
+
+.impuls{
+    padding-top: 100px;
+}
+
+.wrapper_impuls{
+    background-color: #FFFFFF;
+    font-size: 0;
+}
+
+.wrupper_impuls_item{
+    display: inline-block;
+    width: 25%;
+}
+
+.wrupper_impuls_item div{
+    padding: 35px 63px;
+    border: 1px solid #EFEFEF;
+}
+
+/* impuls end */
+
+.wrapper-card_2{
+    padding: 80px 0;
+}
+
+/* footer */
+
+.footer_categories_wrapper{
+    font-size: 0;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.category{
+    min-width: 255px;
+    padding: 60px 0;
+    display: inline-block;
+}
+
+.category:not(:last-child){
+    margin-right: 30px;
+}
+
+.category_title{
+    border-bottom: 1px solid #EFEFEF;;
+}
+
+.category_title h3{
+    max-width: 99px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.category_list{
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+    }
+
+.footer_line{
+    padding: 38px 0;
+}
+
+.social_media_wrapper{
+    font-size: 0;
+    float: left;
+}
+
+.social_media{
+    border: 2px solid #F13C6E;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    display: inline-block;
+}
+
+.social_media:not(:last-child){
+    margin-right: 20px;
+}
+
+.social_media img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.collback_wrapper{
+    float: right;
+}
+
+.collback_wrapper button{
+    width: 170px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    padding: 13px 27px;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    margin-left: 40px;
+}
+
+.collback_wrapper a{
+    color: #000000;
+}
+
+.footer_line::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.last_line{
+    background-color: #EFEFEF;
+    padding: 25px 0;
+}
+
+.last_line:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.best_store{
+    float: left;
+}
+
+.polici{
+    float: right;
+}
+
+.last_line p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+/* footer end */
