@@ -6,7 +6,9 @@ body {
 
 a {
     text-decoration: none;
+    color: #FFFFFF;
 }
+
 .fixet-float::after {
     content: ' ';
     display: block;
@@ -28,7 +30,7 @@ a {
 .header-link-container {
     max-width: fit-content;
     margin: 0 auto;
-    font-size: 0px;
+    font-size: 0;
 }
 
 .header-link-container li {
@@ -45,7 +47,7 @@ a {
 }
 
 .header-midl {
-    padding: 20px 0px;
+    padding: 20px 0;
     border-bottom: 1px solid #EFEFEF;;
 }
 
@@ -60,7 +62,7 @@ a {
 
 .header-midl .container div {
    display: inline-block;
-   font-size: 0px;
+   font-size: 0;
 }
 .header-midl-wrapper-phone{
     margin-top: 20px;
@@ -71,7 +73,7 @@ a {
     color: #000000;
     margin-right: 40px;
 }
-.header-midl-wrapper-phone button{
+.btn{
     width: 170px;
     height: 40px;
     font-weight: 400;
@@ -81,6 +83,7 @@ a {
     background: #FFFFFF;
     border: 2px solid #F13C6E;
     border-radius: 40px;
+    cursor: pointer;
 }
 
 .header-navigate{
@@ -91,7 +94,7 @@ a {
 .header-navigate-link{
     max-width: fit-content;
     margin: 0 auto;
-    font-size: 0px;
+    font-size: 0;
 }
 
 .header-navigate-link li{
@@ -162,7 +165,7 @@ main{
     font-weight: 700;
 }
 .wrapper-card-under{
-    font-size: 0px;
+    font-size: 0;
 }
 .wrapper-card-item{
     padding: 25px 30px;
@@ -177,16 +180,16 @@ main{
 }
 
 .wrapper-card-item:last-child{
-    margin-right: 0px;
+    margin-right: 0;
 }
 .wrapper-card-item img{
     display: block;
-    margin: 0px auto 20px auto;
+    margin: 0 auto 20px auto;
 }
 
 .wrapper-card-item-text{
     max-width: 195px;
-    margin: 0px auto 20px auto;
+    margin: 0 auto 20px auto;
     color: #333333;
 }
 
@@ -211,7 +214,6 @@ main{
     border: 1px solid  #F13C6E;
     color:  #F13C6E;
     background: #FFFFFF;
-
 }
 /*main-end*/
 
@@ -220,7 +222,6 @@ main{
 .wrapper_block_under{
     font-size: 0;
 }
-
 
 .wrapper_block{
     background-color: #F13C6E;
@@ -243,7 +244,6 @@ main{
 }
 
 .wrapper_block p{
-    max-width: 129px;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -252,21 +252,22 @@ main{
 }
 
 .subscribe_text{
-   float: left;
-   margin-right: 65px;
+    max-width: 250px;
+    float: left;
+    margin-right: 65px;
 }
 
 .subscribe_text input{
     max-width: 105px;
-    height: 35px;
     background: #FFFFFF;
     border-radius: 30px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 20px;
     color: #C4C4C4;
-    padding: 9px 95px 9px 25px;
+    padding: 9px 104px 9px 25px;
     border: none;
+    cursor: pointer;
 }
 
 .subscribe_img{
@@ -275,8 +276,9 @@ main{
 }
 
 .uor_shop_text{
-   float: left;
-   margin-right: 16px;
+    max-width: 250px;
+    float: left;
+    margin-right: 16px;
 }
 
 .uor_shop_text button{
@@ -284,17 +286,17 @@ main{
     line-height: 16px;
     text-align: center;
     color: #FFFFFF;
-    padding: 9px 53px;
+    padding: 9px 28px;
     font-weight: 400;
     background: #F13C6E;
     border: 2px solid #FFFFFF;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .uor_shop_img{
     float: right;
     padding: 21px 0;
-    height: 122px;
 }
 
 
@@ -362,8 +364,11 @@ main{
     font-weight: 400;
     font-size: 12px;
     line-height: 28px;
-    color: #828282;
     }
+
+.category_list a{
+    color: #828282;
+}
 
 .footer_line{
     padding: 38px 0;
@@ -392,27 +397,15 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 
 .collback_wrapper{
     float: right;
 }
 
-.collback_wrapper button{
-    width: 170px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #000000;
-    padding: 13px 27px;
-    background: #FFFFFF;
-    border: 2px solid #F13C6E;
-    border-radius: 40px;
-    margin-left: 40px;
-}
-
 .collback_wrapper a{
+    margin-right: 40px;
     color: #000000;
 }
 
